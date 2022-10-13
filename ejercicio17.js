@@ -34,7 +34,7 @@ const exercise17 = () => {
         }
     });
     if (!isNaN(positionNumber)) {
-        box.innerHTML = `<p>El valor ${requestedNumber} es el ${positionNumber}.º de la serie de Finonacci</p>`;
+        box.innerHTML = `<p>El valor ${requestedNumber} es el ${positionNumber}.º de la serie de Fibonacci</p>`;
     } else {
         box.innerHTML = `<p>El valor ${requestedNumber} No está en la serie de Fibonacci</p>`;
     }
